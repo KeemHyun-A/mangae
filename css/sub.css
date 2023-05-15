@@ -1,0 +1,316 @@
+/* 상단영역 */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #555;
+}
+
+#wrap {
+  width: 100%;
+}
+
+header {
+  width: 100%;
+  height: 160px;
+}
+
+header .header_t {
+  margin: 0 auto;
+  width: 1500px;
+  height: 105px;
+}
+
+header .logo {
+  float: left;
+  margin: 20px 0 0 44px;
+  width: 186px;
+  height: 68px;
+}
+
+.search input {
+  margin-top: 30px;
+  margin-left: 250px;
+  width: 470px;
+  height: 40px;
+  border: 0px;
+  border-bottom: 2px solid #95b47b;
+  font-size: 18px;
+}
+
+.search img {
+  width: 35px;
+  height: auto;
+  cursor: pointer;
+}
+
+.header_t ul {
+  float: right;
+}
+
+.header_t li {
+  float: left;
+  margin-right: 20px;
+  line-height: 130px;
+}
+
+.header_t li img {
+  width: 35px;
+  height: auto;
+}
+
+header .header_b {
+  width: 100%;
+  height: 55px;
+  background-color: darkgreen;
+}
+
+header .header_b_in {
+  margin: 0 auto;
+  width: 1500px;
+  height: 55px;
+}
+
+.header_b_in nav {
+  margin-left: 35px;
+}
+
+.header_b_in .nav li {
+  float: left;
+  margin-top: 5px;
+  padding: 10px;
+  font-size: 18px;
+  color: #fff;
+}
+
+.header_b_in .login {
+  float: right;
+}
+
+.header_b_in .login li {
+  float: left;
+  margin-top: 10px;
+  padding: 10px;
+  font-size: 12px;
+  color: #fff;
+}
+/* 콘텐츠 */
+
+#contents {
+  margin: 0 auto;
+  width: 1500px;
+  height: 750px;
+}
+
+#contents > picture > img {
+  float: left;
+  margin: 70px 10px 0 115px;
+  width: 680px;
+  height: 580px;
+}
+
+#contents .contents_h {
+  float: right;
+  margin: 70px 115px 0 10px;
+  width: 500px;
+  height: 580px;
+  border: 1px solid #555;
+  border-radius: 10px;
+}
+#contents .contents_h div {
+  margin: 20px 0 0 20px;
+}
+
+#contents .contents_h .contents_h1 h4 {
+  font-size: 18px;
+  color: #555;
+}
+.contents_h1 h2 {
+  font-size: 28px;
+  color: #555;
+}
+.contents_h1 p {
+  font-size: 12px;
+  color: #555;
+}
+
+#contents .contents_h div .info {
+  margin-top: -30px;
+  margin-bottom: 20px;
+  width: 290px;
+  height: 73px;
+  background-color: darkgreen;
+}
+
+#contents .contents_h div .info p {
+  font-size: 12px;
+  color: #fff;
+}
+
+#contents .contents_h div .info img {
+  width: 20px;
+  height: 20px;
+}
+#contents .contents_h div .info h1 {
+  font-size: 20px;
+  font-weight: 600;
+  color: #fff;
+}
+
+#contents .info .box_in_1 {
+  text-align: center;
+  float: left;
+}
+
+#contents .info .box_in_2 {
+  text-align: center;
+  float: left;
+}
+#contents .info .box_in_3 {
+  text-align: center;
+  float: left;
+}
+.info2 li h3 {
+  font-size: 18px;
+  color: #555;
+}
+
+.info2 li p {
+  font-size: 15px;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+#line {
+  width: 100%;
+  border: 1px solid #ccc;
+}
+
+#making {
+  margin: 0 auto;
+  width: 1500px;
+  height: auto;
+}
+
+#making button {
+  margin: 60px 0 0 155px;
+  display: block;
+  width: 200px;
+  height: 46px;
+  background-color: #ff7700;
+  border: 0;
+  border-radius: 23px;
+  font-size: 27px;
+  color: #fff;
+  font-weight: 600;
+}
+
+#making img {
+  width: 398px;
+  height: 298px;
+}
+#making h4 {
+  padding: 10px 0 10px 0;
+  font-size: 28px;
+  font-weight: 600;
+  color: #ff7700;
+}
+#making p {
+  font-size: 18px;
+  color: #555;
+}
+
+#making .set1 {
+  margin: 0 auto;
+  margin-bottom: 80px;
+  width: 1120px;
+  display: flex;
+  justify-content: space-between;
+}
+
+#making .set2 {
+  margin: 0 auto;
+  margin-bottom: 80px;
+  width: 1120px;
+  display: flex;
+  justify-content: space-between;
+}
+
+#making .step5 {
+  margin-left: 190px;
+  margin-bottom: 80px;
+}
+
+/* 하단영역 */
+footer {
+  width: 100%;
+  height: 400px;
+}
+
+#footer_t {
+  width: 100%;
+  height: 60px;
+  background-color: darkgreen;
+}
+
+#footer_t_in {
+  margin: 0 auto;
+  width: 1500px;
+  height: 60px;
+}
+
+#footer_t_in ul {
+  margin-left: 28px;
+}
+
+#footer_t_in li {
+  float: left;
+  margin-left: 18px;
+  line-height: 60px;
+}
+
+#footer_t_in div {
+  float: right;
+}
+
+#footer_t_in div > img {
+  float: left;
+  padding-top: 13px;
+  margin-left: 20px;
+  width: 35px;
+  height: 35px;
+}
+
+#footer_t_in a {
+  font-size: 12px;
+  color: #fff;
+}
+
+#footer_b_in {
+  margin: 0 auto;
+  width: 1500px;
+  height: 340px;
+}
+
+#footer_b_in h1 {
+  padding: 40px 0 0 50px;
+  width: 186px;
+  height: 68px;
+}
+
+#footer_b_in img {
+}
+
+#footer_b_in p {
+  margin: 15px 0 0 50px;
+  font-size: 12px;
+  color: #555;
+}
