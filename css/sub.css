@@ -90,6 +90,9 @@ header .header_b_in {
   font-size: 18px;
   color: #fff;
 }
+.header_b_in .nav li a {
+  color: #fff;
+}
 
 .header_b_in .login {
   float: right;

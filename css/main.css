@@ -239,6 +239,7 @@ header .header_b_in {
 #con1_new > article > a {
   font-size: 18px;
   font-weight: 600;
+  color: #000;
 }
 
 #con2_banner {
@@ -346,6 +347,10 @@ header .header_b_in {
   width: 268px;
   height: 366px;
   background-color: #fff;
+}
+
+#con4_store_in > div > article > a {
+  color: #000;
 }
 
 #con4_store_in > article:last-child {
