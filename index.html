@@ -6,9 +6,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>만개의 레시피</title>
+    <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" media="screen and (max-width:1500px)" href="./css/main_1500.css">
+    <link rel="stylesheet" media="screen and (max-width:1000px)" href="./css/main_1000.css">
     <script src="./js/jquery.js"></script>
-    <script src="./js/jquery-1.12.4.js"></script>
+    <!-- <script src="./js/jquery-1.12.4.js"></script> -->
     <script src="./js/main.js"></script>
 </head>
 
@@ -56,34 +59,34 @@
             </div>
         </header>
         <!-- 메인이미지 -->
-        <main id="main">
+        <div id="main">
             <ul class="main_img">
                 <li class="img1">
                     <div>
-                    <img src="./images/mainimg1.jpg" alt="">
-                    <button>공모전 참여하기 ></button>
-                </div>
+                        <!-- <img src="./images/mainimg1.jpg" alt=""> -->
+                        <button>공모전 참여하기 ></button>
+                    </div>
                 </li>
                 <li class="img2">
                     <div>
-                        <img src="./images/mainimg2.jpg" alt="">
+                        <!-- <img src="./images/mainimg2.jpg" alt=""> -->
                     </div>
                 </li>
                 <li class="img3">
                     <div>
-                        <img src="./images/mainimg3.jpg" alt="">
+                        <!-- <img src="./images/mainimg3.jpg" alt=""> -->
                     </div>
                 </li>
             </ul>
             <!-- 버튼영역 -->
-        <ul class="btns">
-            <li></li>
-            <li></li>
-            <li></li>
-        </ul>
-            
-        </main>
-        
+            <ul class="btns">
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+
+        </div>
+
         <!-- 콘텐츠 -->
         <section id="con1_new">
             <hgroup>
@@ -152,7 +155,7 @@
                         <h4><span>64%</span> 10,700</h4>
                         <p>4.8 (64)</p>
                     </article>
-                    <article>
+                    <article class="con4_4">
                         <img src="./images/con4_4.jpg" alt="토끼정">
                         <a href="">[만개특가] 토끼정 통등심가츠 & 통모짜 치즈<br>
                             　가츠 & 카레돈카츠소스 골라담기</a>

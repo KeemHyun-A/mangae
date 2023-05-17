@@ -54,8 +54,8 @@ $(document).ready(function () {
   }
   function movie(i) {
     if (current == i) return;
-    var currentEl = $("#main > ul > li").eq(current);
-    var nextEl = $("#main > ul > li").eq(i);
+    var currentEl = $("#main > ul.main_img > li").eq(current);
+    var nextEl = $("#main > ul.main_img > li").eq(i);
 
     currentEl.css({ opacity: 1 }).stop().animate({ opacity: 0 });
     nextEl.css({ opacity: 0 }).stop().animate({ opacity: 1 });
