@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="./css/main.css">
     <link rel="stylesheet" media="screen and (max-width:1500px)" href="./css/main_1500.css">
     <link rel="stylesheet" media="screen and (max-width:1000px)" href="./css/main_1000.css">
+    <link rel="stylesheet" media="screen and (max-width:480px)" href="./css/main_480.css">
+    <link rel="stylesheet" media="screen and (max-width:360px)" href="./css/main_360.css">
     <script src="./js/jquery.js"></script>
     <!-- <script src="./js/jquery-1.12.4.js"></script> -->
     <script src="./js/main.js"></script>
@@ -21,7 +23,7 @@
         <header>
             <div class="header_t">
                 <h1 class="logo"><img src="./images/logo4.png" alt=""></h1>
-                <ul>
+                <ul class="h_icon">
                     <li>
 
                         <p><img src="./images/header icon_1.png" alt="">만개스토어</p>
@@ -35,26 +37,70 @@
                     <input type="text">
                     <img src="./images/search.png" alt="">
                 </div>
-
-
+                <!-- 모바일네비 -->
+            <div class="mo_header">
+                <h1 class="mo_logo"><img src="./images/logo4.png" alt=""></h1>
+                <div class="mo_h_r">
+                    <div class="s_icon"></div>
+                    <div class="mo_nav">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
             </div>
+                
+                
+            </div>
+
             <div class="header_b">
                 <div class="header_b_in">
                     <nav>
                         <ul class="nav">
-                            <li><a href="레시피.html">레시피</a></li>
-                            <li><a href="인기레시피.html">인기레시피</a></li>
-                            <li><a href="신규레시피.html">신규레시피</a></li>
-                            <li><a href="매거진.html">매거진</a></li>
-                            <li><a href="클래스.html">클래스</a></li>
-                            <li><a href="계량팁.html">계량팁</a></li>
+                            <li><a href="recipe.html">레시피</a></li>
+                            <li><a href="popular.html">인기레시피</a></li>
+                            <li><a href="newrecipe.html">신규레시피</a></li>
+                            <li><a href="magazine.html">매거진</a></li>
+                            <li><a href="class.html">클래스</a></li>
+                            <li><a href="measurement.html">계량팁</a></li>
                         </ul>
                     </nav>
                     <ul class="login">
                         <li>로그인</li>
                         <li>회원가입</li>
                     </ul>
+                    <div class="mo_b">
+                        <div class="mo_store">
+                            <img src="./images/store_w.png" alt="">
+                            <p>만개스토어</p>
+                        </div>
+                        <div class="mo_recipe">
+                            <img src="./images/recipe_w.png" alt="">
+                            <p>최근 본 레시피</p>
+                        </div>
+                    </div>
+                    <!-- 모바일
+                    <ul>
+                        <li>
+
+                            <p><img src="./images/header icon_1.png" alt="">만개스토어</p>
+                        </li>
+                        <li>
+
+                            <p><img src="./images/header icon_2.png" alt="">최근 본 레시피</p>
+                        </li>
+                    </ul> -->
                 </div>
+
+
+                <div class="mo_ht">
+                    <h1 class="mo_logo"><img src="./images/logo4.png" alt=""></h1>
+                    <div class="mo_search">
+                        <input type="text">
+                        <img src="./images/search.png" alt="">
+                    </div>
+                </div>
+                <div class="mo_hb"></div>
 
             </div>
         </header>
@@ -133,7 +179,7 @@
         </section>
         <section id="con4_store">
             <section id="con4_store_in">
-                <div>
+                <div class="pc_store">
                     <article>
                         <img src="./images/con4_1.jpg" alt="냄비세트">
                         <a href="">[美친특가] 독일 주방명품 슈톨츠 머랭 쿡웨어<br>
@@ -162,6 +208,46 @@
                         <h4><span>20%</span> 5,500</h4>
                         <p>4.8 (34)</p>
                     </article>
+                </div>
+<!-- 모바일 스토어 -->
+
+                <div class="mo_store">
+                    <div class="mo_store_box1">
+                        <div class="store_1">
+                            <img src="./images/con4_1.jpg" alt="냄비세트">
+                        <a href="">[美친특가] 독일 주방명품 슈톨츠 머랭 쿡웨어<br>
+                            　세트 모음전+실리콘 냄비 손잡이(2P) 증정
+                            </a>
+                        <h4><span>73%</span> 49,900</h4>
+                        <p>5 (1)</p>
+                        </div>
+                        <div class="store_2">
+                            <img src="./images/con4_2.jpg" alt="누룽지">
+                        <a href="">[美친특가] 미식백과 누룽지 50g x 30봉(백미<br>
+                            　10봉+찹쌀 10봉+오곡10봉)
+                            
+                        </a>
+                        <h4><span>69%</span> 9,400</h4>
+                        <p>4.8 (14)</p>
+                        </div>
+                    </div>
+                    <div class="mo_store_box2">
+                        <div  class="store_3">
+                            <img src="./images/con4_3.jpg" alt="사누끼 우동면">
+                        <a href="">[만개특가] 전통 수타방식 사누끼우동면<br>
+                            　10인분+ 가쓰오 소스 10</a>
+                        <h4><span>64%</span> 10,700</h4>
+                        <p>4.8 (64)</p>
+                        </div>
+                        <div  class="store_4">
+                            <img src="./images/con4_4.jpg" alt="토끼정">
+                        <a href="">[만개특가] 토끼정 통등심가츠 & 통모짜 치즈<br>
+                            　가츠 & 카레돈카츠소스 골라담기</a>
+                        <h4><span>20%</span> 5,500</h4>
+                        <p>4.8 (34)</p>
+                        </div>
+                    </div>
+                    
                 </div>
                 <button>만개스토어 바로가기</button>
             </section>
@@ -325,11 +411,20 @@
                         쇼핑문의(만개스토어) : 02-6953-4433<br>
                         서비스 이용문의 : 070-4896-6416<br>
                         <br>
-                        (주)만개의레시피 / 사업자등록번호 291-81-02485 / 통신판매업신고 2022-서울금천-3089 / 벤처기업확인 / 사업자정보확인<br>
+                        (주)만개의레시피 / 사업자등록번호 291-81-02485<br>
+                        통신판매업신고 2022-서울금천-3089 / 벤처기업확인 / 사업자정보확인<br>
                         서울지방중소기업청 제 031134233-1-01643호<br>
                         <br>
                         Copyright 만개의레시피 Inc. All Rights Reserved
                     </p><br>
+
+                    <ul class="mo_info">
+                        <li><a href="">회사소개</a></li>
+                        <li><a href="">광고 및 마케팅 제휴문의</a></li>
+                        <li><a href="">이용약관</a></li>
+                        <li><a href="">개인정보취급방침</a></li>
+                        <li><a href="">고객센터</a></li>
+                    </ul>
                 </div>
             </div>
         </footer>
