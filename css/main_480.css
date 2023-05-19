@@ -40,7 +40,9 @@ header .logo {
   display: none;
 }
 /* 모바일 네비 */
-
+.mo_b {
+  display: block;
+}
 header .mo_header {
 }
 
