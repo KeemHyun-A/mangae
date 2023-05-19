@@ -1,7 +1,9 @@
 #wrap {
   width: 100%;
 }
-
+header .mo_logo {
+  display: none;
+}
 header {
   width: 100%;
   height: 160px;
@@ -377,6 +379,9 @@ header .header_b_in {
 #con4_store_in > div > article > p {
   margin-left: 8px;
   font-size: 12px;
+}
+#con4_store_in .mo_store {
+  display: none;
 }
 
 #con4_store_in button {
